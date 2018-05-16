@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mashup</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <!-- Navagation bar -->
+            <div class="row">
+                <div class="col-md-6" id="nav">
+                    <button>Awesome tab</button>
+                    <button>Cool stuff</button>
+                    <button>Cooler stuff</button>
+                </div>
+            </div>
+            
+            <!-- Map container and main pad -->
+            <div class="row">
+                 <!-- mainpad container -->
+                 <div class="col-md-4 ml-md-auto" id="mainpad">
+                     Main pad with nice tools to use map
+                 </div>
+                <!-- map container -->
+                <div class="col-md-8 ml-md-auto" id="mapcontainer"></div>          
+            </div>
+                
+            
+        </div>
+        
+        
+        
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+            
+        <script src="index.js"></script>
+        
+        <!-- Google Map -->
+   <script async defer
+	 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX56JjOQlfybN0ng0fYrOoIwvXo4hfg9c&callback=onGoogleMapResponse">
+	</script>
+        
+    </body>
+</html>

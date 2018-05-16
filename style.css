@@ -1,0 +1,20 @@
+body{
+    
+}
+#nav{
+    
+}
+.container{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-right: 1%;
+}
+#mapcontainer{
+    height: 600px;
+    background: lightgray;
+}
+#mainpad{
+    height: 600px;
+    background: lightgray;
+}
